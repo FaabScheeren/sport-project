@@ -1,12 +1,11 @@
 import React from "react";
-import Logo from "./logo192.png";
 import Soccer from "./Soccer.jpg";
 import "./styles/Header.scss";
 
 export default function(props) {
   return (
     <header>
-      <img src={Logo} />
+      <h1 className="siteName">Sport news</h1>
       <nav className="nav-bar">
         <div className="wrapper">
           <a href="/">
@@ -30,7 +29,7 @@ export default function(props) {
           <a href="/">
             <div>
               <p>Soccer</p>
-              <img src={Soccer} className="image" />
+              <img src={Soccer} className="image" alt="test" />
             </div>
           </a>
         </div>
