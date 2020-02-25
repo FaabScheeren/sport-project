@@ -6,25 +6,29 @@ const recent_news = [
     title: "Sample Title",
     summary: "Sample Summary",
     content: "This will lead you to content",
-    image: "Sample Image"
+    image: "Sample Image",
+    rate: 8
   },
   {
     title: "Another Sample Title",
     summary: "Another Sample Summary",
     content: "This will lead you to more content",
-    image: "Another Sample Image"
+    image: "Another Sample Image",
+    rate: 5
   },
   {
     title: "Sample Title",
     summary: "Sample Summary",
     content: "This will lead you to content",
-    image: "Sample Image"
+    image: "Sample Image",
+    rate: 6
   },
   {
     title: "Another Sample Title",
     summary: "Another Sample Summary",
     content: "This will lead you to more content",
-    image: "Another Sample Image"
+    image: "Another Sample Image",
+    rate: 7
   }
 ];
 
