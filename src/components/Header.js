@@ -3,6 +3,8 @@ import Logo from "./logo192.png";
 import Soccer from "./Soccer.jpg";
 import "./styles/Header.scss";
 
+// this is a comment
+
 export default function(props) {
   return (
     <header>
