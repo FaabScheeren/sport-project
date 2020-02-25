@@ -1,3 +1,17 @@
+@import "./config";
+
+header {
+  background-color: #bccacf;
+}
+
+.siteName {
+  margin: 0;
+  padding: 30px;
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-style: italic;
+}
+
 .nav-bar a {
   color: white;
   display: inline-block;
@@ -27,6 +41,8 @@
   border: 0.02px solid grey;
   margin: 0px;
   padding: 16px 0;
+  font-family: "Montserrat";
+  font-style: italic;
 }
 
 .nav-bar a:hover {
