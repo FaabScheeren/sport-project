@@ -1,9 +1,10 @@
 import React from "react";
 import Logo from "./logo192.png";
-import Soccer from "./Soccer.jpg";
+import Soccer from "./images/Soccer.jpg";
+import FieldHockey from "./images/fieldhockey.jpg";
+import Ultimate from "./images/layout.jpg";
+import Tennis from "./images/tennis.jpg";
 import "./styles/Header.scss";
-
-// this is a comment
 
 export default function(props) {
   return (
@@ -19,20 +20,20 @@ export default function(props) {
           </a>
           <a href="/">
             <div>
-              <p>Soccer</p>
-              <img src={Soccer} className="image" />
+              <p>Field Hockey</p>
+              <img src={FieldHockey} className="image" />
             </div>
           </a>
           <a href="/">
             <div>
-              <p>Soccer</p>
-              <img src={Soccer} className="image" />
+              <p>Ultimate</p>
+              <img src={Ultimate} className="image" />
             </div>
           </a>
           <a href="/">
             <div>
-              <p>Soccer</p>
-              <img src={Soccer} className="image" />
+              <p>Tennis</p>
+              <img src={Tennis} className="image" />
             </div>
           </a>
         </div>
