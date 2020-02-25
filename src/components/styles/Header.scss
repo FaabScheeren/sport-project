@@ -1,0 +1,39 @@
+.nav-bar a {
+  color: white;
+  display: inline-block;
+  text-decoration-line: none;
+  width: calc(25% - 0px);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.image {
+  visibility: hidden;
+}
+
+.nav-bar div:hover .image {
+  visibility: visible;
+}
+
+.nav-bar img {
+  height: auto;
+  width: 100%;
+}
+
+.nav-bar p {
+  border: 0.02px solid grey;
+  margin: 0px;
+  padding: 16px 0;
+}
+
+.nav-bar a:hover {
+  background-color: #737373;
+}
+
+.nav-bar {
+  background-color: #565656;
+  height: 50px;
+}
